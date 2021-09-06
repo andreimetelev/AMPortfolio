@@ -20,4 +20,8 @@
     .nav {
         display: none;
     }
+
+    .header {
+        justify-content: center;
+    }
 }
