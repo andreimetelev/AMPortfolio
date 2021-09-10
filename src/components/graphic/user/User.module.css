@@ -4,11 +4,7 @@
     align-items: center;
 }
 
-.userInfo {
-    /* display: block;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: center; */
+.userDesc {
     overflow-wrap: break-word;
 }
 

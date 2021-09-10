@@ -7,7 +7,7 @@ const Footer = (props) => {
         <div className={classes.footer} {...props}>
             <footer className={classes.intro}>
                 <div className={classes.footer__inner}>
-            <div className={classes.footer__info}>
+            <div className={classes.footer__content}>
                 <div className={classes.footer__copyright}>Andrei Metelev 2021</div>
                 <div className={classes.footer__social}>
                     <button className={classes.footer__social__a} href="#" target='_blank'><img className={classes.footer__social__img} src="./images/footerSocial/linkedin.png" width="18" alt="3"/></button>

@@ -8,11 +8,6 @@ import SectionContent from "./components/graphic/sections/SectionContent";
 import IntroPart from "./components/graphic/sections/intro/IntroPart";
 import SectionBGImage from "./components/graphic/SectionBGImage/SectionBgImage";
 
-
-
-
-
-
 function App() {
   
   return (
@@ -20,7 +15,7 @@ function App() {
       <Header/>
       <Section>
         <SectionBGImage/>
-        <SectionTitle SecTitle={{title:'Hello I`m Andrei Metelev. Welcome to my website', objective:'Here I will talk about myself and my development experience.'}}/>
+        <SectionTitle title={{title:'Hello I`m Andrei Metelev. Welcome to my website', objective:'Here I will talk about myself and my development experience.'}}/>
         <SectionContent>
           <IntroPart/>
         </SectionContent>        

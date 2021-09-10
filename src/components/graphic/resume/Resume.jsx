@@ -6,7 +6,7 @@ import ResumeBody from './ResumeBody';
 const Resume = (props) => {
     return (
         <div className={classes.resume} {...props}>  
-        <ResumeTitle RTitle={{title:'My Resume', objective:'Junior Front End Developer'}}/>
+        <ResumeTitle resume = {{title:'Andrei Metelev Resume', objective:'Junior Front End Developer'}}/>
         <ResumeBody/>
         </div>
     );

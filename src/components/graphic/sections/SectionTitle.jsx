@@ -4,8 +4,8 @@ import classes from "../sections/Section.module.css";
 const SectionTitle = (props) => {
     return (
         <div className={classes.Sec__greetings} {...props}>
-            <h3 className={classes.SecTitle}>{props.SecTitle.title}</h3>
-            <h4 className={classes.SecObj}>{props.SecTitle.objective}</h4>
+            <h3 className={classes.SecTitle}>{props.title.title}</h3>
+            <h4 className={classes.SecObj}>{props.title.objective}</h4>
         </div>
     );
 };
