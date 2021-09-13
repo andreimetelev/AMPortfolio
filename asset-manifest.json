@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AMPortfolio/static/css/main.5e8b3e63.chunk.css",
+    "main.js": "/AMPortfolio/static/js/main.7c440fab.chunk.js",
+    "main.js.map": "/AMPortfolio/static/js/main.7c440fab.chunk.js.map",
+    "runtime-main.js": "/AMPortfolio/static/js/runtime-main.34d27486.js",
+    "runtime-main.js.map": "/AMPortfolio/static/js/runtime-main.34d27486.js.map",
+    "static/js/2.ecbf34a7.chunk.js": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js",
+    "static/js/2.ecbf34a7.chunk.js.map": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js.map",
+    "index.html": "/AMPortfolio/index.html",
+    "static/css/main.5e8b3e63.chunk.css.map": "/AMPortfolio/static/css/main.5e8b3e63.chunk.css.map",
+    "static/js/2.ecbf34a7.chunk.js.LICENSE.txt": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js.LICENSE.txt",
+    "static/media/map-of-the-world-2401458.71b76d47.jpg": "/AMPortfolio/static/media/map-of-the-world-2401458.71b76d47.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34d27486.js",
+    "static/js/2.ecbf34a7.chunk.js",
+    "static/css/main.5e8b3e63.chunk.css",
+    "static/js/main.7c440fab.chunk.js"
+  ]
+}
