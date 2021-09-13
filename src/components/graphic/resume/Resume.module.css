@@ -49,6 +49,7 @@
 .resumeItem {
     margin-bottom: 20px;
     overflow-wrap: break-word;
+    text-align: initial;
 }
 
 .RItemTitle {
@@ -76,21 +77,20 @@
 
 
 /* Media */
-@media screen and (max-width:568px) {
+@media screen and (max-width:768px) {
+
+    .resumeColumnLeft,
+    .resumeColumnRight {
+        padding: 10px;
+        width: 100%;
+        border:none;
+    }
     .resumeBody {
         margin: 20px auto;
+        flex-wrap: wrap;
     }
 
     .resumeTitle {
         margin-bottom: 5px;
-    }
-
-
-    .resumeColumnRight {
-        padding-left: 10px;
-    }
-
-    .resumeColumnLeft {
-        padding-right: 10px;
     }
 }

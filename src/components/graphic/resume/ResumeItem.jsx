@@ -13,4 +13,4 @@ const ResumeItem = (props) => {
 
 export default ResumeItem;
 
-// rI={{chapter:'',title:'', desc:''}}
+// ritem={{chapter:'',title:'', desc:''}}

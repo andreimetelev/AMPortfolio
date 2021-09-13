@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from "../SectionBGImage/SectionBgImage.module.css";
-import BgImg from "../SectionBGImage/background/background-6360865.png"
+import BgImg from "../SectionBGImage/background/map-of-the-world-2401458.jpg"
 
 const SectionBGImage = ({children, ...props}) => {
     return (  

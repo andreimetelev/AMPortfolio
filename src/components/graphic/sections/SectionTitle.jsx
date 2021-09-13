@@ -12,4 +12,4 @@ const SectionTitle = (props) => {
 
 export default SectionTitle;
 
-// SecTitle={{title:'Main Page', objective:'Welcome to my website. Here I will talk about myself and my development experience.'}}
+// title={{title:'Main Page', objective:'Welcome to my website. Here I will talk about myself and my development experience.'}}

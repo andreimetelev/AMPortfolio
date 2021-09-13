@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-.userDesc {
-    overflow-wrap: break-word;
-}
-
 .userName {
     margin-bottom: 1px;
     font-size: 18px;

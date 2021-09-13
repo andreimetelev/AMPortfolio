@@ -4,11 +4,17 @@ import classes from "../../sections/Section.module.css";
 
 const IntroPart = ({children, ...props}) => {
     return (  
-            <div className={classes.intro__content} {...props}>
-                <img className={classes.intro__photo} src="./images/work/1.png" alt="1" />
-                <img className={classes.intro__photo} src="./images/work/2.png" alt="2" />
-                <img className={classes.intro__photo} src="./images/work/3.png" alt="3" />
-           </div> 
+            <div className={classes.intro__content}>
+            <div className={classes.intro__photo} {...props}>
+                <img className={classes.intro__img} src="./images/bg/section1.jpg" alt="1" />
+           </div>
+           <div className={classes.intro__photo} {...props}>
+                <img className={classes.intro__img} src="./images/bg/section2.jpg" alt="1" />
+           </div>
+           <div className={classes.intro__photo} {...props}>
+                <img className={classes.intro__img} src="./images/bg/section3.jpg" alt="1" />
+           </div>
+           </div>
         );
     };
 

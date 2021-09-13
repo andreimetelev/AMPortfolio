@@ -1,9 +1,10 @@
 .bg__img {
     width: 100%;
     height: 100vh;
-    background-color: white;
     z-index: -1;
     position: fixed;
     left: 0;
     top: 0;
+    background: center no-repeat;
+    background-size: cover;
 }

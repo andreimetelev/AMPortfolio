@@ -8,9 +8,8 @@ const Resume = (props) => {
     return (
         <div className={classes.resumeBody} {...props} >
         <ResumeLeftPart>
-
+        <ResumeItem ritem={{chapter:'Profile', title:'', desc:"Hi, I'm Andrey Metelev Front-end developer. In 2021, I got carried away by studying programming and web application development. The programming world is huge, and I have become, albeit small, but a part of this world. I have worked in different companies and in different positions. In my work, I have always completed the assigned tasks with high quality and on time. I'm not afraid to take responsibility. I like to do interesting and challenging tasks. I quickly learn new things and put them into practice. I am learning the basics of web development on my own. I'm also developing along the path of a React developer."}}/>
         <ResumeItem ritem={{chapter:'Contact details',title:'', desc:'Phone: +79263113911 www.linkedin.cn/in/andreimetelev mail:joultiy@gmail.com'}}/>
-
         <ResumeItem ritem={{chapter:'Education', title:'2019-present time', desc:'Independent study of programming, application of knowledge in your own projects'}}/>
 
         <ResumeItem ritem={{chapter:'Interests',title:'',desc:''}}/>
