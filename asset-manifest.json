@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AMPortfolio/static/css/main.5e8b3e63.chunk.css",
-    "main.js": "/AMPortfolio/static/js/main.54302b3b.chunk.js",
-    "main.js.map": "/AMPortfolio/static/js/main.54302b3b.chunk.js.map",
+    "main.js": "/AMPortfolio/static/js/main.d926e5a8.chunk.js",
+    "main.js.map": "/AMPortfolio/static/js/main.d926e5a8.chunk.js.map",
     "runtime-main.js": "/AMPortfolio/static/js/runtime-main.34d27486.js",
     "runtime-main.js.map": "/AMPortfolio/static/js/runtime-main.34d27486.js.map",
     "static/js/2.ecbf34a7.chunk.js": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js",
@@ -11,8 +11,8 @@
     "static/css/main.5e8b3e63.chunk.css.map": "/AMPortfolio/static/css/main.5e8b3e63.chunk.css.map",
     "static/js/2.ecbf34a7.chunk.js.LICENSE.txt": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js.LICENSE.txt",
     "static/media/2.927191a1.jpg": "/AMPortfolio/static/media/2.927191a1.jpg",
-    "static/media/4.385d4c7b.jpg": "/AMPortfolio/static/media/4.385d4c7b.jpg",
     "static/media/cooking.619ac296.png": "/AMPortfolio/static/media/cooking.619ac296.png",
+    "static/media/map-of-the-world-2401458.71b76d47.jpg": "/AMPortfolio/static/media/map-of-the-world-2401458.71b76d47.jpg",
     "static/media/read-books.3232e4bb.png": "/AMPortfolio/static/media/read-books.3232e4bb.png",
     "static/media/roller-skate.07ebf8b2.png": "/AMPortfolio/static/media/roller-skate.07ebf8b2.png",
     "static/media/section1.0cfa3b85.jpg": "/AMPortfolio/static/media/section1.0cfa3b85.jpg",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.34d27486.js",
     "static/js/2.ecbf34a7.chunk.js",
     "static/css/main.5e8b3e63.chunk.css",
-    "static/js/main.54302b3b.chunk.js"
+    "static/js/main.d926e5a8.chunk.js"
   ]
 }
