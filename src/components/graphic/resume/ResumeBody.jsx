@@ -3,6 +3,11 @@ import classes from "../resume/Resume.module.css";
 import ResumeLeftPart from './ResumeLeftPart';
 import ResumeRightPart from './ResumeRightPart';
 import ResumeItem from './ResumeItem';
+import icon1 from "../images/hobby-icon/cooking.png";
+import icon2 from "../images/hobby-icon/meeting-with-a-friend.png";
+import icon3 from "../images/hobby-icon/read-books.png";
+import icon4 from "../images/hobby-icon/roller-skate.png";
+import icon5 from "../images/hobby-icon/travel.png";
 
 const Resume = (props) => {
     return (
@@ -14,11 +19,11 @@ const Resume = (props) => {
 
         <ResumeItem ritem={{chapter:'Interests',title:'',desc:''}}/>
 
-        <img className={classes.hobbyImg} src="./images/hobby-icon/cooking.png" alt="6"/>
-            <img className={classes.hobbyImg} src="./images/hobby-icon/roller-skate.png" alt="7"/>
-            <img className={classes.hobbyImg} src="./images/hobby-icon/read-books.png" alt="8"/>
-            <img className={classes.hobbyImg} src="./images/hobby-icon/meeting-with-a-friend.png" alt="9"/>
-            <img className={classes.hobbyImg} src="./images/hobby-icon/travel.png" alt="10"/>
+        <img className={classes.hobbyImg} src={icon1} alt="icon1"/>
+        <img className={classes.hobbyImg} src={icon2} alt="icon2"/>
+        <img className={classes.hobbyImg} src={icon3} alt="icon3"/>
+        <img className={classes.hobbyImg} src={icon4} alt="icon4"/>
+        <img className={classes.hobbyImg} src={icon5} alt="icon5"/>
 
         </ResumeLeftPart>
        

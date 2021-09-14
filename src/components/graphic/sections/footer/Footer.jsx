@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from "../footer/Footer.module.css";
-
+import logo1 from "../../images/footerSocial/github-sign.png";
+import logo2 from "../../images/footerSocial/linkedin.png";
+import logo3 from "../../images/footerSocial/telegram.png";
 
 const Footer = (props) => {
     return (
@@ -10,9 +12,9 @@ const Footer = (props) => {
             <div className={classes.footer__content}>
                 <div className={classes.footer__copyright}>Andrei Metelev 2021</div>
                 <div className={classes.footer__social}>
-                    <button className={classes.footer__social__a} href="#" target='_blank'><img className={classes.footer__social__img} src="./images/footerSocial/linkedin.png" width="18" alt="3"/></button>
-                    <button className={classes.footer__social__a} href="#" target='_blank'><img className={classes.footer__social__img} src="./images/footerSocial/github-sign.png" width="18" alt="4"/></button>
-                    <button className={classes.footer__social__a} href="#" target='_blank'><img className={classes.footer__social__img} src="./images/footerSocial/telegram.png" width="18" alt="5"/></button>
+                    <button className={classes.footer__social__a} href="#" target='_blank'><img className={classes.footer__social__img} src={logo1} alt="logo1" width="18"/></button>
+                    <button className={classes.footer__social__a} href="#" target='_blank'><img className={classes.footer__social__img} src={logo2} alt="logo2" width="18"/></button>
+                    <button className={classes.footer__social__a} href="#" target='_blank'><img className={classes.footer__social__img} src={logo3} alt="logo3" width="18"/></button>
                 </div>
             </div>
             <nav className={classes.footer__nav}>

@@ -8,6 +8,7 @@ import SectionContent from "./components/graphic/sections/SectionContent";
 import IntroPart from "./components/graphic/sections/intro/IntroPart";
 import SectionBGImage from "./components/graphic/SectionBGImage/SectionBgImage";
 
+
 function App() {
   
   return (
