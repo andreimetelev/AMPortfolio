@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/AMPortfolio/static/css/main.5e8b3e63.chunk.css",
-    "main.js": "/AMPortfolio/static/js/main.d926e5a8.chunk.js",
-    "main.js.map": "/AMPortfolio/static/js/main.d926e5a8.chunk.js.map",
+    "main.css": "/AMPortfolio/static/css/main.c2fab1d5.chunk.css",
+    "main.js": "/AMPortfolio/static/js/main.381288ef.chunk.js",
+    "main.js.map": "/AMPortfolio/static/js/main.381288ef.chunk.js.map",
     "runtime-main.js": "/AMPortfolio/static/js/runtime-main.34d27486.js",
     "runtime-main.js.map": "/AMPortfolio/static/js/runtime-main.34d27486.js.map",
-    "static/js/2.ecbf34a7.chunk.js": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js",
-    "static/js/2.ecbf34a7.chunk.js.map": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js.map",
+    "static/js/2.dfc12f69.chunk.js": "/AMPortfolio/static/js/2.dfc12f69.chunk.js",
+    "static/js/2.dfc12f69.chunk.js.map": "/AMPortfolio/static/js/2.dfc12f69.chunk.js.map",
     "index.html": "/AMPortfolio/index.html",
-    "static/css/main.5e8b3e63.chunk.css.map": "/AMPortfolio/static/css/main.5e8b3e63.chunk.css.map",
-    "static/js/2.ecbf34a7.chunk.js.LICENSE.txt": "/AMPortfolio/static/js/2.ecbf34a7.chunk.js.LICENSE.txt",
+    "static/css/main.c2fab1d5.chunk.css.map": "/AMPortfolio/static/css/main.c2fab1d5.chunk.css.map",
+    "static/js/2.dfc12f69.chunk.js.LICENSE.txt": "/AMPortfolio/static/js/2.dfc12f69.chunk.js.LICENSE.txt",
     "static/media/2.927191a1.jpg": "/AMPortfolio/static/media/2.927191a1.jpg",
+    "static/media/777.3315d461.jpg": "/AMPortfolio/static/media/777.3315d461.jpg",
     "static/media/cooking.619ac296.png": "/AMPortfolio/static/media/cooking.619ac296.png",
+    "static/media/email.792ef22f.png": "/AMPortfolio/static/media/email.792ef22f.png",
     "static/media/map-of-the-world-2401458.71b76d47.jpg": "/AMPortfolio/static/media/map-of-the-world-2401458.71b76d47.jpg",
     "static/media/read-books.3232e4bb.png": "/AMPortfolio/static/media/read-books.3232e4bb.png",
     "static/media/roller-skate.07ebf8b2.png": "/AMPortfolio/static/media/roller-skate.07ebf8b2.png",
@@ -22,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.34d27486.js",
-    "static/js/2.ecbf34a7.chunk.js",
-    "static/css/main.5e8b3e63.chunk.css",
-    "static/js/main.d926e5a8.chunk.js"
+    "static/js/2.dfc12f69.chunk.js",
+    "static/css/main.c2fab1d5.chunk.css",
+    "static/js/main.381288ef.chunk.js"
   ]
 }
