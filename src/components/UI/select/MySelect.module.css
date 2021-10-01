@@ -1,6 +1,6 @@
-.myInput {
+.mySelect {
     display: block;
-    width: 100%;
+    width: auto;
     padding: 5px 5px;
     margin:10px 15px;
     font-family: inherit;
@@ -10,15 +10,4 @@
     color: black;
     border: 1px solid black;
     border-radius: 20px;
-   
-}
-
-.myInput:focus {
-    outline: none;
-    border-color: darkcyan;
-    transition: border-color .2s linear;
-}
-
-.myInput::placeholder{
-    color: black;
 }

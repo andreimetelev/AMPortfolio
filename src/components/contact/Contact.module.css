@@ -1,0 +1,126 @@
+
+.contact{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.contact__title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact__left {
+    width: 40%;
+    padding: 10px;
+}
+
+.contact__right {
+    width: 60%;
+    padding: 10px;
+}
+
+.contact__photo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contact__img {
+    position: inherit;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contact__info {
+    width: auto;
+}
+
+.contact__item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact__item:last-child {
+        margin-bottom: 0;
+}
+
+.contact__icon {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contact__label {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-left: 20px;
+}
+
+.contact__form {
+    margin-top: 10px;
+}
+
+.contact__textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding: 13px 18px;
+    margin:10px 0;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: black;
+    border: 1px solid black;
+    border-radius: 27px;
+    resize: none;
+}
+
+.contact__textarea:focus {
+    outline: none;
+    border-color: darkcyan;
+    transition: border-color .2s linear;
+}
+
+.contact__textarea::placeholder{
+    color: black;
+}
+
+.contact__textRight {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/* Media */
+
+@media screen and (max-width:568px) {
+   
+    .contact__right {
+        display: none;
+    }
+
+    .contact__left {
+        width: 100%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,144 @@
+.main__page {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.page__bg__img {
+    width: 100%;
+    min-height: 100vh;
+    z-index: -100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: center no-repeat;
+    background-size: cover;
+}
+
+.CardsBg__img {
+    width: 100%;
+    height: inherit;
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: center no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+/* Work */
+
+.work__page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+.work__link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 30%;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    transition: background-color .4s linear;
+    background-color: inherit;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.work__link:hover {
+    background-color: rgba( 0, 0, 0, .5);
+    color: white;
+}
+
+.work__text{
+    text-align: center;
+}
+
+.hobby__text{
+    text-align: center;
+}
+
+.work__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work__add__btn {
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    transition: background-color .2s linear;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.work__add__btn:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .work__box {
+        flex-direction: column;
+
+    }
+}
+
+/* About Me */
+
+
+.about__link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 30%;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    transition: background-color .4s linear;
+    background-color: inherit;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.about__link:hover {
+    background-color: rgba( 0, 0, 0, .5);
+    color: white;
+}

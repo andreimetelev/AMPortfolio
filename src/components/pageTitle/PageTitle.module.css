@@ -1,0 +1,19 @@
+.pageChapter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.pageTitle {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.pageObj{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
