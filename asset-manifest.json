@@ -1,36 +1,32 @@
 {
   "files": {
-    "main.css": "/AMPortfolio/static/css/main.dfe83ee7.chunk.css",
-    "main.js": "/AMPortfolio/static/js/main.5282bced.chunk.js",
-    "main.js.map": "/AMPortfolio/static/js/main.5282bced.chunk.js.map",
+    "main.css": "/AMPortfolio/static/css/main.d8aa3411.chunk.css",
+    "main.js": "/AMPortfolio/static/js/main.de4e067b.chunk.js",
+    "main.js.map": "/AMPortfolio/static/js/main.de4e067b.chunk.js.map",
     "runtime-main.js": "/AMPortfolio/static/js/runtime-main.34d27486.js",
     "runtime-main.js.map": "/AMPortfolio/static/js/runtime-main.34d27486.js.map",
-    "static/js/2.b5085242.chunk.js": "/AMPortfolio/static/js/2.b5085242.chunk.js",
-    "static/js/2.b5085242.chunk.js.map": "/AMPortfolio/static/js/2.b5085242.chunk.js.map",
+    "static/js/2.69fedf81.chunk.js": "/AMPortfolio/static/js/2.69fedf81.chunk.js",
+    "static/js/2.69fedf81.chunk.js.map": "/AMPortfolio/static/js/2.69fedf81.chunk.js.map",
     "index.html": "/AMPortfolio/index.html",
-    "static/css/main.dfe83ee7.chunk.css.map": "/AMPortfolio/static/css/main.dfe83ee7.chunk.css.map",
-    "static/js/2.b5085242.chunk.js.LICENSE.txt": "/AMPortfolio/static/js/2.b5085242.chunk.js.LICENSE.txt",
+    "static/css/main.d8aa3411.chunk.css.map": "/AMPortfolio/static/css/main.d8aa3411.chunk.css.map",
+    "static/js/2.69fedf81.chunk.js.LICENSE.txt": "/AMPortfolio/static/js/2.69fedf81.chunk.js.LICENSE.txt",
     "static/media/1.30db0152.jpg": "/AMPortfolio/static/media/1.30db0152.jpg",
     "static/media/1.374771ea.jpg": "/AMPortfolio/static/media/1.374771ea.jpg",
     "static/media/1.eb2bab81.jpg": "/AMPortfolio/static/media/1.eb2bab81.jpg",
     "static/media/2.927191a1.jpg": "/AMPortfolio/static/media/2.927191a1.jpg",
     "static/media/777.3315d461.jpg": "/AMPortfolio/static/media/777.3315d461.jpg",
-    "static/media/bgHobby.0cfa3b85.jpg": "/AMPortfolio/static/media/bgHobby.0cfa3b85.jpg",
-    "static/media/bgWork.6aeb5ba5.jpg": "/AMPortfolio/static/media/bgWork.6aeb5ba5.jpg",
+    "static/media/bgHobby.ee5b7df9.jpg": "/AMPortfolio/static/media/bgHobby.ee5b7df9.jpg",
+    "static/media/bgWork.97450c15.jpg": "/AMPortfolio/static/media/bgWork.97450c15.jpg",
     "static/media/cooking.619ac296.png": "/AMPortfolio/static/media/cooking.619ac296.png",
     "static/media/email.792ef22f.png": "/AMPortfolio/static/media/email.792ef22f.png",
     "static/media/read-books.3232e4bb.png": "/AMPortfolio/static/media/read-books.3232e4bb.png",
     "static/media/roller-skate.07ebf8b2.png": "/AMPortfolio/static/media/roller-skate.07ebf8b2.png",
-    "static/media/travel.88bd68fa.png": "/AMPortfolio/static/media/travel.88bd68fa.png",
-    "static/media/w1.2a94b5f4.png": "/AMPortfolio/static/media/w1.2a94b5f4.png",
-    "static/media/w2.fa68d44f.png": "/AMPortfolio/static/media/w2.fa68d44f.png",
-    "static/media/w3.8644b29e.png": "/AMPortfolio/static/media/w3.8644b29e.png",
-    "static/media/w4.3038acaf.png": "/AMPortfolio/static/media/w4.3038acaf.png"
+    "static/media/travel.88bd68fa.png": "/AMPortfolio/static/media/travel.88bd68fa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.34d27486.js",
-    "static/js/2.b5085242.chunk.js",
-    "static/css/main.dfe83ee7.chunk.css",
-    "static/js/main.5282bced.chunk.js"
+    "static/js/2.69fedf81.chunk.js",
+    "static/css/main.d8aa3411.chunk.css",
+    "static/js/main.de4e067b.chunk.js"
   ]
 }
