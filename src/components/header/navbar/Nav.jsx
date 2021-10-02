@@ -12,7 +12,7 @@ const Nav = (props) => {
   const [contact, setContact] = useState(false);
     return (
       <div className={classes.nav} {...props} >
-          <Link className={classes.navbar__link} to="/main">Main Page</Link>
+          <Link className={classes.navbar__link} to="/mainPage">Main Page</Link>
           <MyBtn onClick={() => setResume(true)}> My Resume</MyBtn>
           <Modal visible={resume} setVisible={setResume}>
           <Resume/>

@@ -8,9 +8,6 @@ const WorkItem  = (props) => {
 
         <div className={classes.work__index}>
             <h3>{props.number}.</h3>
-            <div className={classes.workCard__photo}>
-                <img className={classes.work__img} src={props.work.img} alt="111"/>
-            </div>
             <h4>{props.work.start}/{props.work.ending}</h4>
         </div>
         
@@ -20,7 +17,7 @@ const WorkItem  = (props) => {
         </div>
 
         <div className={classes.work__text}>
-            <h3>{props.work.body}</h3>
+            <h3>{props.work.description}</h3>
         </div>
         </div>
         

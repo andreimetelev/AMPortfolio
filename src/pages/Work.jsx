@@ -1,10 +1,6 @@
 import React, { useMemo, useState } from "react";
 import classes from "../pages/PagesStyles.module.css";
 import BgImg from "../image/bg/work/1.jpg";
-import work1 from "../image/work/w1.png";
-import work2 from "../image/work/w2.png";
-import work3 from "../image/work/w3.png";
-import work4 from "../image/work/w4.png";
 import WorksList from '../components/work/WorksList';
 import MyBtn from "../components/UI/button/MyBtn";
 import WorkForm from "../components/work/WorkForm";
@@ -14,14 +10,14 @@ import PageTitle from "../components/pageTitle/PageTitle";
        
 function Work() {
     const [works, setWorks] = useState ([
-        {img:work1, id:1, start:'2001-08', ending:"2008-10", title:'Engine repair specialist ', body:'Repair and maintenance of engines of heavy vehicles'},
-        {img:work2, id:2, start:'2008-10', ending:"2009-07", title:'Engine repair specialist', body:'Car engine repair and maintenance'},
-        {img:work3, id:3, start:'2009-08', ending:"2010-06", title:'Compressor repair specialist', body:'Repair and maintenance of engines and compressors of refrigeration units'},
-        {img:work4, id:4, start:'2010-09', ending:"2013-03", title:'Сar repair specialist', body:'Maintenance and repair of Audi cars'},
-        {img:work1, id:5, start:'2013-04', ending:"2014-09", title:'Leading specialist of a bank branch', body:'Work in a bank branch'},
-        {img:work2, id:6, start:'2014-09', ending:"2015-05", title:'Bank card specialist', body:'Working with bank cards'},
-        {img:work3, id:7, start:'2015-05', ending:"2017-04", title:'Payroll Projects Manager', body:'Working with organizations on the issue of salary projects'},
-        {img:work4, id:8, start:'2017-06', ending:"2021-08", title:'Accountant', body:'Working as an accountant in a private company'},
+        {id:1, start:'2001-08', ending:"2008-10", title:'Engine repair specialist ', description:'Repair and maintenance of engines of heavy vehicles'},
+        {id:2, start:'2008-10', ending:"2009-07", title:'Engine repair specialist', description:'Car engine repair and maintenance'},
+        {id:3, start:'2009-08', ending:"2010-06", title:'Compressor repair specialist', description:'Repair and maintenance of engines and compressors of refrigeration units'},
+        {id:4, start:'2010-09', ending:"2013-03", title:'Сar repair specialist', description:'Maintenance and repair of Audi cars'},
+        {id:5, start:'2013-04', ending:"2014-09", title:'Leading specialist of a bank branch', description:'Work in a bank branch'},
+        {id:6, start:'2014-09', ending:"2015-05", title:'Bank card specialist', description:'Working with bank cards'},
+        {id:7, start:'2015-05', ending:"2017-04", title:'Payroll Projects Manager', description:'Working with organizations on the issue of salary projects'},
+        {id:8, start:'2017-06', ending:"2021-08", title:'Accountant', description:'Working as an accountant in a private company'},
     ])
     
     const [filter, setFilter] = useState({sort: '', query: ''})

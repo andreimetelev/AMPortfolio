@@ -7,8 +7,8 @@ const WorksList = ({works, title, hide}) => {
     if (!works.length) {
         return(
             <h1 className={classes.works__hidden}>
-        No cards found!
-        </h1>
+                No cards found!
+            </h1>
         )
     }
 

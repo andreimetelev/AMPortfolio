@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.userDesc {
+    display: flex;
+    flex-direction: column;
+}
+
 .userName {
     margin-bottom: 1px;
     font-size: 18px;
@@ -27,4 +32,11 @@
     font-weight: 500;
     color: black;
     padding-left: 9px;
+}
+
+@media screen and (max-width:468px) {
+   
+    .userProf {
+        font-size: 12px;
+    }
 }

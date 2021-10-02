@@ -26,13 +26,13 @@ const Footer = (props) => {
                         </button>
                     </div>
                 </div>
-                <nav className={classes.footer__nav}>
-                <Link className={classes.footer__nav__link} to="/main">Main Page</Link>
+                <div className={classes.footer__nav}>
+                <Link className={classes.footer__nav__link} to="/mainPage">Main Page</Link>
                 <MyBtn className={classes.footer__nav__link} href="#" onClick={() => setContact(true)}>Contact</MyBtn>
                 <Modal visible={contact} setVisible={setContact}>
                 <Contact/>
                 </Modal>
-                </nav>
+                </div>
             </footer>
         );
     };

@@ -3,8 +3,8 @@ import classes from "../contact/Contact.module.css";
 import MyInput from '../UI/input/MyInput';
 import MyBtn from '../UI/button/MyBtn';
 import ContactImg from '../../image/contacts/777.jpg';
-import phone from '../../image/contacts/phone-call.png';
-import mail from '../../image/contacts/email.png';
+import Myphone from '../../image/contacts/phone-call.png';
+import Mymail from '../../image/contacts/email.png';
 
 const Contact = (props) => {
  
@@ -18,10 +18,10 @@ const Contact = (props) => {
                 </div> 
                 <ul className={classes.contact__info}>
                   <li className={classes.contact__item}>
-                    <img className={classes.contact__icon} src={phone} alt="phoneIcon"/>
+                    <img className={classes.contact__icon} src={Myphone} alt="phoneIcon"/>
                     +79263113911</li>
                   <li className={classes.contact__item}>
-                  <img className={classes.contact__icon} src={mail} alt="mailIcon"/>
+                  <img className={classes.contact__icon} src={Mymail} alt="mailIcon"/>
                     joultiy@gmail.com</li>
                 </ul>
                 <form className={classes.contact__form} action="/" method='post'>

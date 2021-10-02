@@ -3,7 +3,6 @@ import classes from "../work/WorkItem.module.css";
 import MyInput from "../UI/input/MyInput";
 import MySelect from "../UI/select/MySelect";
 
-
 const WorkFilter  = ({filter, setFilter}) => {
     return (
         <div className={classes.work__search__and__sort}>

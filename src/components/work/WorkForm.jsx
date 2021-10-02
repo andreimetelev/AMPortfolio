@@ -1,11 +1,11 @@
 import React from "react";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import MyBtn from "../UI/button/MyBtn";
 import MyInput from "../UI/input/MyInput";
 
 
 const WorkForm = ({subjoin}) => {
-    const [card, setCard] = useState({start: '', ending: '', title: '', body: ''})
+    const [card, setCard] = useState({start: '', ending: '', title: '', description: ''})
 
     const addNewWork = (e) => {
         e.preventDefault()
@@ -13,7 +13,7 @@ const WorkForm = ({subjoin}) => {
             ...card, id: Date.now()
         }
         subjoin(newWork)
-        setCard({start: '', ending: '', title: '', body: ''})
+        setCard({start: '', ending: '', title: '', description: ''})
     }
 
     return (
@@ -34,10 +34,10 @@ const WorkForm = ({subjoin}) => {
          type="text" 
          placeholder="Title"/>
 
-         <MyInput value={card.body}
-         onChange={e => setCard( {...card, body: e.target.value})}
+         <MyInput value={card.description}
+         onChange={e => setCard( {...card, description: e.target.value})}
          type="text" 
-         placeholder="Body"/>
+         placeholder="Description"/>
 
          <MyBtn onClick={addNewWork}>Add work</MyBtn>
      </form>

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 15px;
+    padding: 5px 15px;
     background-color: rgba(222, 184, 135, .4);
 }
 
@@ -41,6 +41,7 @@
 }
 
 .footer__nav__link {
+    margin: 5px;
     padding: 5px 5px;
     border: 2px solid black;
     border-radius: 20px;
@@ -52,7 +53,6 @@
     transition: background-color .2s linear;
     background-color: inherit;
     cursor: pointer;
-    margin-left: 15px;
 }
 
 .footer__nav__link:hover {
@@ -67,5 +67,9 @@
     
     .footer__nav {
         display: none;
+    }
+
+    .footer {
+        justify-content: center;
     }
 }

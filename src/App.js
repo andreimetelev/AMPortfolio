@@ -10,9 +10,9 @@ function App() {
     
     return (
       <BrowserRouter>
-        <Header/>
-        <MyRouter/>
-        <Footer/>
+      <Header/>
+      <MyRouter/>
+      <Footer/>
       </BrowserRouter>
   );
 }

@@ -8,7 +8,7 @@ import Work from "../../pages/Work";
 const MyRouter = () => {
     return (
         <Switch>
-        <Route path="/main">
+        <Route exact path="/mainPage">
             <MainPage/>
         </Route>
         <Route path="/about">
@@ -17,7 +17,7 @@ const MyRouter = () => {
         <Route path="/work">
             <Work/>
         </Route>
-        <Redirect to="/main"/>
+        <Redirect exact to="/mainPage"/>
         </Switch>
     );
 };

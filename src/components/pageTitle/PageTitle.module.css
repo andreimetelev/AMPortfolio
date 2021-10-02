@@ -7,13 +7,46 @@
 }
 
 .pageTitle {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     color: white;
 }
 
 .pageObj{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     color: white;
+}
+
+@media screen and (max-width:860px) {
+   
+    .pageTitle {
+        font-size: 25px;
+    }
+
+    .pageObj {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:375px) {
+   
+    .pageTitle {
+        font-size: 20px;
+    }
+
+    .pageObj {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:290px) {
+   
+    .pageTitle {
+        font-size: 16px;
+    }
+
+    .pageObj {
+        font-size: 12px;
+    }
 }
