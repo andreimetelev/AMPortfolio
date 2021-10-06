@@ -55,6 +55,7 @@
  
 .work__description{
     display: flex;
+    flex-direction: column;
     flex-grow: 2;
     justify-content: space-between;
     margin: 0 15px;
