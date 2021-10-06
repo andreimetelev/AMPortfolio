@@ -7,6 +7,8 @@
 
 .work__profession {
     text-align: center;
+    font-size: 20px;
+    color: black;
 }
 
 .work__list {
@@ -25,16 +27,16 @@
     padding: 5px;
     border: 2px solid black;
     border-radius: 20px;
-    margin: 5px 15px;
     background-color: white;
 }
 
 .work__index {
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
+    text-align: center;
+    font-size: 14px;
 }
 
 .work__title {
@@ -42,21 +44,20 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    text-align: center;
 }
+
 .work__text {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    text-align: center;
 }
  
 .work__description{
     display: flex;
     flex-grow: 2;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 15px;
 }
 
 .workCard__photo {
@@ -95,17 +96,28 @@
 
 /* Media */
 
-@media screen and (max-width:1300px) {
-    .work__description {
-        flex-direction: column;
-
-    }
+@media screen and (max-width:960px){
+.work__description {
+    flex-direction:column;
 }
 
-@media screen and (max-width:841px) {
-    .work__item {
-        flex-direction: column;
-
-    }
 }
 
+
+@media screen and (max-width:860px) {
+
+    .work__index,
+    .work__btns {
+        font-size: 12px;
+        flex-direction: column;
+    }
+
+    .work__title {
+        font-size: 14px;
+    }
+
+    .work__text {
+        font-size: 12px;
+    }
+
+}

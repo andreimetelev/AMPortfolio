@@ -37,6 +37,12 @@
 
 /* Work */
 
+.work__page__description {
+    padding: 0 15px;
+    font-size: 20px;
+    color: white;
+}
+
 .work__page {
     display: flex;
     flex-direction: column;
@@ -80,7 +86,6 @@
 }
 
 .work__box {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,6 +141,9 @@
 /* Media */
 
 @media screen and (max-width: 860px) {
+    .work__page__description{
+        font-size: 14px;
+    }
 
     .main__cards {
         flex-direction: column;
@@ -149,13 +157,6 @@
     }
 }
 
-
-@media screen and (max-width:768px) {
-    .work__box {
-        flex-direction: column;
-    }
-}
-
 @media screen and (max-width:658px) {
     .about__link,
     .work__link
@@ -164,13 +165,15 @@
         height: 250px;
         border-radius: 15%;
     }
-
+    .work__box {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .about__link,
     .work__link {
-        width: 300px;
+        width: 270px;
         height: 250px;
         border-radius: 30%;
     }
@@ -179,9 +182,10 @@
     .hobby__text {
         font-size: 20px;
      }
+
 }
 
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 330px) {
     .about__link,
     .work__link {
         width: 230px;

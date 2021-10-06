@@ -7,13 +7,14 @@ const WorkItem  = (props) => {
         <div className={classes.work__item}>
 
         <div className={classes.work__index}>
-            <h3>{props.number}.</h3>
-            <h4>{props.work.start}/{props.work.ending}</h4>
+            <h4>{props.number}.</h4>
+            <h4>{props.work.start}</h4>
+            <h4>{props.work.ending}</h4>
         </div>
         
         <div className={classes.work__description}>
         <div className={classes.work__title}>
-            <h2>{props.work.title}</h2>
+            <h3>{props.work.title}</h3>
         </div>
 
         <div className={classes.work__text}>

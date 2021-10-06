@@ -6,8 +6,7 @@ import MyBtn from "../components/UI/button/MyBtn";
 import WorkForm from "../components/work/WorkForm";
 import WorkFilter from "../components/work/WorkFilter";
 import Modal from "../components/UI/modal/Modal";
-import PageTitle from "../components/pageTitle/PageTitle";
-       
+  
 function Work() {
     const [works, setWorks] = useState ([
         {id:1, start:'2001-08', ending:"2008-10", title:'Engine repair specialist ', description:'Repair and maintenance of engines of heavy vehicles'},
@@ -47,7 +46,10 @@ function Work() {
     <div className={classes.work__page}>
         <div>
             <div className={classes.page__bg__img} style={{backgroundImage: `url(${BgImg})` }}></div>
-            <PageTitle page = {{title:'Work', objective:'This page provides information about my previous experience in the form of cards.You can sort them and use the search. You can also hide them and add cards with information about your work experience.'}}/>
+            <div className={classes.work__page__description}>
+            <h3>This page provides information about my previous experience in the form of cards.You can sort them and use the search. You can also hide them and add cards with information about your work experience.</h3>
+            </div>
+            
         </div>
         <div className={classes.work__box}>
         <WorkFilter

@@ -95,3 +95,30 @@
         margin-bottom: 5px;
     }
 }
+
+@media screen and (max-width:568px) {
+
+    .resumeItem{
+        margin-bottom: 5px;
+    }
+
+    .resumeTitle {
+        font-size: 16px;
+    }
+
+    .resumeColumnTitle{
+        font-size: 14px;
+    }
+
+    .RTitleObj,
+    .RItemDes,
+    .RItemTitle {
+        font-size: 12px;
+    }
+
+    .hobbyImg{
+        width: 25px;
+        height: 25px;
+    }
+    
+}
